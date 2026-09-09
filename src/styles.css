@@ -161,5 +161,73 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility text-gradient {
+  background-image: var(--gradient-brand);
+  background-clip: text;
+  color: transparent;
+}
+
+@utility bg-gradient-brand {
+  background-image: var(--gradient-brand);
+}
+
+@utility shadow-brand {
+  box-shadow: var(--shadow-brand);
+}
+
+@utility glass-card {
+  background-color: color-mix(in oklab, var(--surface) 80%, transparent);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+}
+
+@utility aurora {
+  position: relative;
+  isolation: isolate;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -20% -10% auto -10%;
+    height: 70%;
+    background:
+      radial-gradient(
+        40% 60% at 20% 30%,
+        color-mix(in oklab, var(--brand-blue) 45%, transparent),
+        transparent 70%
+      ),
+      radial-gradient(
+        45% 60% at 80% 20%,
+        color-mix(in oklab, var(--brand-violet) 45%, transparent),
+        transparent 70%
+      );
+    filter: blur(70px);
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@utility animate-float {
+  animation: float-slow 6s ease-in-out infinite;
 }
