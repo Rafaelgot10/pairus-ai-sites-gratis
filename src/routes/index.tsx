@@ -192,7 +192,7 @@ function Index() {
           </p>
 
           <div className="reveal mt-9 flex flex-col items-center gap-3">
-            <CtaButton label="QUERO O SITE DO MEU NEGÓCIO" className="w-full max-w-md sm:w-auto" />
+            <CtaButton label="Quero O Site Do Meu Negócio" className="w-full max-w-md sm:w-auto" />
             <span className="text-sm text-muted-foreground">
               Você paga apenas a assinatura da Wix para manter o site no ar (menos de R$ 20/mês)
             </span>
