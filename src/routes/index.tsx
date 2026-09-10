@@ -11,7 +11,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import logo from "@/assets/pairus-logo.png.asset.json";
+import logo from "@/assets/pairus-logo.png";
 import portDentista from "@/assets/port-dentista.jpg";
 import portAdvogado from "@/assets/port-advogado.jpg";
 import portEletricista from "@/assets/port-eletricista.jpg";
@@ -140,7 +140,7 @@ function CtaButton({ label, className = "" }: { label: string; className?: strin
       href={WHATSAPP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className={`animate-glow group inline-flex items-center justify-center gap-3 rounded-full bg-gradient-brand px-8 py-4 text-base font-bold text-primary-foreground shadow-brand transition-transform duration-300 hover:-translate-y-1 hover:scale-[1.02] active:translate-y-0 ${className}`}
+      className={`animate-glow group inline-flex items-center justify-center gap-3 rounded-full bg-whatsapp px-8 py-4 text-base font-bold text-primary-foreground shadow-whatsapp transition-transform duration-300 hover:-translate-y-1 hover:scale-[1.02] active:translate-y-0 ${className}`}
     >
       <MessageCircle className="size-5 transition-transform duration-300 group-hover:rotate-12" />
       {label}
@@ -157,7 +157,7 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <img
-            src={logo.url}
+            src={logo}
             alt="Pairus IA"
             className="h-14 w-auto object-contain drop-shadow-[0_0_24px_color-mix(in_oklab,var(--brand-violet)_55%,transparent)] transition-transform duration-300 hover:scale-105 sm:h-16"
           />
@@ -165,7 +165,7 @@ function Index() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full border border-border px-5 py-2 text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:bg-secondary sm:inline-flex"
+            className="hidden rounded-full border border-whatsapp px-5 py-2 text-sm font-semibold text-whatsapp transition-all duration-300 hover:-translate-y-0.5 hover:bg-whatsapp hover:text-primary-foreground sm:inline-flex"
           >
             Falar No WhatsApp
           </a>
@@ -253,7 +253,7 @@ function Index() {
                     width={800}
                     height={1008}
                     loading="lazy"
-                    className="h-full w-full object-cover object-top transition-transform duration-[2500ms] ease-out group-hover:-translate-y-[35%]"
+                    className="portfolio-image w-full object-contain object-top"
                   />
                 </div>
                 <figcaption className="flex items-center justify-between px-5 py-4">
@@ -324,7 +324,9 @@ function Index() {
             <span className="text-sm font-bold tracking-widest text-brand-violet uppercase">
               Transparência Total
             </span>
-            <h2 className="mt-3 text-2xl font-bold sm:text-3xl">O Que Você Paga E O Que Não Paga</h2>
+            <h2 className="mt-3 text-2xl font-bold sm:text-3xl">
+              O Que Você Paga E O Que Não Paga
+            </h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-border p-5">
                 <p className="font-semibold text-brand-blue">Por Nossa Conta</p>
@@ -387,7 +389,7 @@ function Index() {
       <footer className="border-t border-border/60 px-5 py-12">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 text-center">
           <img
-            src={logo.url}
+            src={logo}
             alt="Pairus IA"
             className="h-16 w-auto object-contain drop-shadow-[0_0_30px_color-mix(in_oklab,var(--brand-violet)_45%,transparent)]"
           />

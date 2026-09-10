@@ -187,10 +187,25 @@
   box-shadow: var(--shadow-brand);
 }
 
+@utility shadow-whatsapp {
+  box-shadow: 0 24px 60px -24px color-mix(in oklab, var(--whatsapp) 65%, transparent);
+}
+
 @utility glass-card {
   background-color: color-mix(in oklab, var(--surface) 80%, transparent);
   border: 1px solid var(--border);
   backdrop-filter: blur(12px);
+}
+
+.portfolio-image {
+  display: block;
+  height: auto;
+  transform: translateY(0);
+  transition: transform 2500ms ease-out;
+}
+
+.group:hover .portfolio-image {
+  transform: translateY(calc(18rem - 100%));
 }
 
 @utility aurora {
@@ -266,7 +281,7 @@
 @keyframes glow-pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand-violet) 45%, transparent);
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--whatsapp) 45%, transparent);
   }
   50% {
     box-shadow: 0 0 0 16px transparent;
