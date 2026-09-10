@@ -23,17 +23,17 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Site profissional para o seu negócio | Pairus IA" },
+      { title: "Site Profissional Para O Seu Negócio | Pairus IA" },
       {
         name: "description",
         content:
-          "Parceiros oficiais Wix. A Pairus IA cria o site do seu negócio sem cobrar pela criação: design profissional, pronto para vender e no ar em poucos dias.",
+          "Parceiros Oficiais Wix. A Pairus IA Cria O Site Do Seu Negócio Sem Cobrar Pela Criação: Design Profissional, Pronto Para Vender E No Ar Em Poucos Dias.",
       },
-      { property: "og:title", content: "Site profissional para o seu negócio | Pairus IA" },
+      { property: "og:title", content: "Site Profissional Para O Seu Negócio | Pairus IA" },
       {
         property: "og:description",
         content:
-          "Parceiros oficiais Wix. A Pairus IA cria o site do seu negócio sem cobrar pela criação, pronto para vender.",
+          "Parceiros Oficiais Wix. A Pairus IA Cria O Site Do Seu Negócio Sem Cobrar Pela Criação, Pronto Para Vender.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -60,13 +60,13 @@ const nichos = [
   "Dentistas",
   "Advogados",
   "Eletricistas",
-  "Salões de beleza",
-  "Personal trainers",
+  "Salões De Beleza",
+  "Personal Trainers",
   "Restaurantes",
   "Clínicas",
   "Arquitetos",
   "Contadores",
-  "Pet shops",
+  "Pet Shops",
   "Barbearias",
   "Encanadores",
 ];
@@ -167,7 +167,7 @@ function Index() {
             rel="noopener noreferrer"
             className="hidden rounded-full border border-border px-5 py-2 text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:bg-secondary sm:inline-flex"
           >
-            Falar no WhatsApp
+            Falar No WhatsApp
           </a>
         </div>
       </header>
@@ -177,7 +177,7 @@ function Index() {
         <div className="mx-auto max-w-4xl text-center">
           <span className="reveal inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
             <BadgeCheck className="size-4 text-brand-blue" />
-            Parceiro oficial Wix
+            Parceiro Oficial Wix
           </span>
 
           <h1 className="reveal mt-7 text-4xl leading-[1.05] font-extrabold sm:text-6xl">
