@@ -181,8 +181,8 @@ function Index() {
           </span>
 
           <h1 className="reveal mt-7 text-4xl leading-[1.05] font-extrabold sm:text-6xl">
-            Parabéns! O seu negócio está apto a receber
-            <span className="text-gradient"> um site profissional sem custo de criação</span>
+            Parabéns! O Seu Negócio Está Apto A Receber
+            <span className="text-gradient"> Um Site Profissional Sem Custo De Criação</span>
           </h1>
 
           <p className="reveal mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
@@ -199,7 +199,7 @@ function Index() {
           </div>
 
           <div className="reveal mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
-            {["Sem custo de criação", "Sem contrato", "Sem conhecimento técnico"].map((t) => (
+            {["Sem Custo De Criação", "Sem Contrato", "Sem Conhecimento Técnico"].map((t) => (
               <span key={t} className="inline-flex items-center gap-2">
                 <CheckCircle2 className="size-4 text-brand-blue" />
                 {t}
