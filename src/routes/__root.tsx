@@ -77,18 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Pairus IA | Sites gratuitos para comércios locais" },
+      { title: "Pairus IA | Sites profissionais para negócios locais" },
       {
         name: "description",
         content:
-          "Agência parceira oficial Wix. Criamos o site do seu negócio gratuitamente, do zero ao ar.",
+          "Agência parceira oficial Wix. Criamos o site do seu negócio do zero ao ar, sem cobrar pela criação.",
       },
       { name: "author", content: "Pairus IA" },
-      { property: "og:title", content: "Pairus IA | Sites gratuitos para comércios locais" },
+      { property: "og:title", content: "Pairus IA | Sites profissionais para negócios locais" },
       {
         property: "og:description",
         content:
-          "Agência parceira oficial Wix. Criamos o site do seu negócio gratuitamente, do zero ao ar.",
+          "Agência parceira oficial Wix. Criamos o site do seu negócio do zero ao ar, sem cobrar pela criação.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
