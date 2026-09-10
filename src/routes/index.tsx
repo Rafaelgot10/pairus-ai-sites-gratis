@@ -74,22 +74,22 @@ const nichos = [
 const beneficios = [
   {
     icon: Rocket,
-    titulo: "Site completo",
+    titulo: "Site Completo",
     texto: "Site profissional feito do zero para o seu negócio, com textos que vendem.",
   },
   {
     icon: Smartphone,
-    titulo: "Perfeito no celular",
+    titulo: "Perfeito No Celular",
     texto: "Mais de 80% dos seus clientes chegam pelo celular. Seu site vai brilhar lá.",
   },
   {
     icon: MessageCircle,
-    titulo: "Botão de WhatsApp",
+    titulo: "Botão De WhatsApp",
     texto: "Cada visitante vira uma conversa direta no seu WhatsApp, sem intermediários.",
   },
   {
     icon: Search,
-    titulo: "Pronto para o Google",
+    titulo: "Pronto Para O Google",
     texto: "Estrutura otimizada para as pessoas encontrarem o seu negócio na busca.",
   },
   {
@@ -99,37 +99,37 @@ const beneficios = [
   },
   {
     icon: CalendarClock,
-    titulo: "No ar em poucos dias",
+    titulo: "No Ar Em Poucos Dias",
     texto: "Você envia as informações, a gente cuida de absolutamente todo o resto.",
   },
 ];
 
 const passos = [
-  { n: "01", t: "Você chama no WhatsApp", d: "Conta em 2 minutos o que o seu negócio faz." },
-  { n: "02", t: "A Pairus IA cria tudo", d: "Design, textos, fotos e estrutura por nossa conta." },
-  { n: "03", t: "Você aprova", d: "Ajustamos os detalhes até ficar do seu jeito." },
-  { n: "04", t: "Seu site no ar", d: "Link pronto para colocar na bio, no cartão e nos anúncios." },
+  { n: "01", t: "Você Chama No WhatsApp", d: "Conta em 2 minutos o que o seu negócio faz." },
+  { n: "02", t: "A Pairus IA Cria Tudo", d: "Design, textos, fotos e estrutura por nossa conta." },
+  { n: "03", t: "Você Aprova", d: "Ajustamos os detalhes até ficar do seu jeito." },
+  { n: "04", t: "Seu Site No Ar", d: "Link pronto para colocar na bio, no cartão e nos anúncios." },
 ];
 
 const faq = [
   {
-    q: "Quanto custa para ter o meu site?",
+    q: "Quanto Custa Para Ter O Meu Site?",
     a: "A criação do site é por nossa conta: você não paga pelo nosso trabalho de design e desenvolvimento. Para o site ficar no ar existe apenas a assinatura da Wix, que fica em menos de R$ 20 por mês e é paga direto para a plataforma.",
   },
   {
-    q: "Por que vocês não cobram pela criação?",
+    q: "Por Que Vocês Não Cobram Pela Criação?",
     a: "Somos parceiros oficiais Wix e queremos colocar os negócios locais no digital. Cada negócio que cresce com a gente vira um case do nosso portfólio.",
   },
   {
-    q: "Preciso entender de tecnologia?",
+    q: "Preciso Entender De Tecnologia?",
     a: "Não. Você só envia as informações do seu negócio pelo WhatsApp e a Pairus IA cuida de todo o resto.",
   },
   {
-    q: "Quanto tempo demora?",
+    q: "Quanto Tempo Demora?",
     a: "Na maioria dos casos a primeira versão fica pronta em poucos dias após você enviar as informações.",
   },
   {
-    q: "Existe fidelidade ou contrato?",
+    q: "Existe Fidelidade Ou Contrato?",
     a: "Não. O site é seu, hospedado na sua própria conta Wix. Você pode continuar ou parar quando quiser.",
   },
 ];
@@ -232,7 +232,7 @@ function Index() {
               Portfólio
             </span>
             <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-              Veja o nível de site que você vai receber
+              Veja O Nível De Site Que Você Vai Receber
             </h2>
             <p className="mt-3 text-muted-foreground">
               Exemplos de sites criados pela Pairus IA para profissionais e negócios locais.
@@ -268,7 +268,7 @@ function Index() {
           </div>
 
           <div className="reveal mt-12 text-center">
-            <CtaButton label="QUERO UM SITE ASSIM" />
+            <CtaButton label="Quero Um Site Assim" />
           </div>
         </div>
       </section>
@@ -277,7 +277,7 @@ function Index() {
       <section className="border-t border-border/60 bg-surface/40 px-5 py-20">
         <div className="mx-auto max-w-6xl">
           <h2 className="reveal max-w-2xl text-3xl font-bold sm:text-4xl">
-            Tudo isso incluso, <span className="text-gradient">sem cobrar pela criação</span>
+            Tudo Isso Incluso, <span className="text-gradient">Sem Cobrar Pela Criação</span>
           </h2>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {beneficios.map((b, i) => (
@@ -297,10 +297,10 @@ function Index() {
         </div>
       </section>
 
-      {/* Como funciona */}
+      {/* Como Funciona */}
       <section className="border-t border-border/60 px-5 py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="reveal text-3xl font-bold sm:text-4xl">Como funciona</h2>
+          <h2 className="reveal text-3xl font-bold sm:text-4xl">Como Funciona</h2>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {passos.map((p, i) => (
               <div
@@ -322,18 +322,18 @@ function Index() {
         <div className="mx-auto max-w-3xl">
           <div className="glass-card reveal rounded-2xl p-8">
             <span className="text-sm font-bold tracking-widest text-brand-violet uppercase">
-              Transparência total
+              Transparência Total
             </span>
-            <h2 className="mt-3 text-2xl font-bold sm:text-3xl">O que você paga e o que não paga</h2>
+            <h2 className="mt-3 text-2xl font-bold sm:text-3xl">O Que Você Paga E O Que Não Paga</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-border p-5">
-                <p className="font-semibold text-brand-blue">Por nossa conta</p>
+                <p className="font-semibold text-brand-blue">Por Nossa Conta</p>
                 <p className="mt-2 text-sm text-muted-foreground">
                   Criação, design, textos, imagens, estrutura e publicação do site.
                 </p>
               </div>
               <div className="rounded-xl border border-border p-5">
-                <p className="font-semibold">Por sua conta</p>
+                <p className="font-semibold">Por Sua Conta</p>
                 <p className="mt-2 text-sm text-muted-foreground">
                   Apenas a assinatura da Wix, que mantém o site no ar: menos de R$ 20 por mês, paga
                   direto para a plataforma.
@@ -347,7 +347,7 @@ function Index() {
       {/* FAQ */}
       <section className="border-t border-border/60 px-5 py-20">
         <div className="mx-auto max-w-3xl">
-          <h2 className="reveal text-3xl font-bold sm:text-4xl">Perguntas frequentes</h2>
+          <h2 className="reveal text-3xl font-bold sm:text-4xl">Perguntas Frequentes</h2>
           <div className="mt-8 space-y-4">
             {faq.map((f, i) => (
               <details
@@ -372,14 +372,14 @@ function Index() {
       <section className="aurora relative overflow-hidden border-t border-border/60 px-5 py-24 text-center">
         <div className="mx-auto max-w-3xl">
           <h2 className="reveal text-3xl font-extrabold sm:text-5xl">
-            Seu concorrente já está no digital.
-            <span className="text-gradient"> A sua vez é agora.</span>
+            Seu Concorrente Já Está No Digital.
+            <span className="text-gradient"> A Sua Vez É Agora.</span>
           </h2>
           <p className="reveal mt-5 text-lg text-muted-foreground">
             Fale com a Pairus IA no WhatsApp e comece a criação do site do seu negócio hoje mesmo.
           </p>
           <div className="reveal mt-8">
-            <CtaButton label="FALAR COM A PAIRUS IA" className="w-full max-w-md sm:w-auto" />
+            <CtaButton label="Falar Com A Pairus IA" className="w-full max-w-md sm:w-auto" />
           </div>
         </div>
       </section>
