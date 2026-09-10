@@ -175,12 +175,6 @@ function Index() {
       {/* Hero */}
       <section className="aurora relative overflow-hidden px-5 pt-14 pb-20">
         <div className="mx-auto max-w-4xl text-center">
-          <img
-            src={logo.url}
-            alt="Pairus IA"
-            className="reveal animate-float mx-auto mb-8 h-24 w-auto object-contain drop-shadow-[0_0_50px_color-mix(in_oklab,var(--brand-glow)_60%,transparent)] sm:h-28"
-          />
-
           <span className="reveal inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
             <BadgeCheck className="size-4 text-brand-blue" />
             Parceiro oficial Wix
